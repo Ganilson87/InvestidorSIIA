@@ -1,0 +1,118 @@
+#perfil {
+    display: flex; 
+}
+#feed-perfil {
+    width: 100%;
+}
+#perfil-resumo,
+#feed-perfil {
+    overflow: auto;
+    height: calc(100vh - 100px);
+    max-height: calc(100vh - 105px);
+    padding: 5px 10px;
+}
+#perfil-resumo {
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
+}
+#perfil #info {
+    position: relative;
+    height: 400px;
+}
+#perfil #info #foto-capa {
+    height: 50%;
+    width: 100%;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+}
+#perfil #info #foto-perfil {
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    border: 10px solid #fff;
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+#imgChip{
+    width: 70px;
+    height: 70px;
+    background-image: url("/chip.png");
+    background-size: cover;
+    background-position: center;
+}
+#nome-usuario {
+    font-weight: 400;
+}
+#perfil .ctn {
+    margin-bottom: 10px;
+}
+#perfil .ctn td {
+    padding: 10px;
+}
+#dados-usuario table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#dados-usuario tr:not(:last-child) {
+    border-bottom: 2px solid #dfdfdf !important;
+}
+#meu-cartao {
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-image: url("/01.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#meu-cartao .sia-card-1 {
+    background-color: #ffffff58;
+    border: 1px solid #d1d1d1;
+    border-bottom-color: #696969;
+    border-right-color: #696969;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 10px 1px #0000002c;
+}
+
+@media(max-width:990px){
+    #perfil {
+        display: grid; 
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #perfil-resumo { 
+        width: 100%;
+        min-width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media(max-width:560px){
+    
+    h2.title{
+        font-size: 16px;
+    }
+
+    .sia-card-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media(max-width:400px){
+    #meu-cartao {
+        padding: 20px 10px; 
+    }
+
+    #meu-cartao .sia-card-1 {
+        width: 100%;
+        height: 200px;
+    }
+}
