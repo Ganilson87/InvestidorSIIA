@@ -18,7 +18,7 @@
 
 <script>
 import Swal from 'sweetalert2';
-import auth from '~/services/auth.js';
+//import auth from '~/services/auth.js';
 import '~/assets/css/perfil.scss'
 import '~/assets/css/menu.scss'
 
