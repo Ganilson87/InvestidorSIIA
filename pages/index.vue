@@ -347,25 +347,7 @@
             </div>
         </div>
 
-        <div class="cardInicio2">
-            <h3>Meus Investimentos</h3>
-            <div class="infoCairdDahs">
-                <div>
-                    <span></span>
-                </div>
 
-               
-            </div>
-        </div>
-        <div class="cardInicio3">
-            <h3>Investimentos com Retorno</h3>
-            <div class="infoCairdDahs">
-                <div>
-                 
-                </div>
-
-            </div>
-        </div>
     </div>
 
     <!-- tabela de fazendas com o meu investimento -->
